@@ -1,0 +1,17 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - '!file.inFolder("Templates")'
+        - file.name != "index.base"
+        - '!file.inFolder("Materials")'
+    groupBy:
+      property: publish
+      direction: ASC
+    order:
+      - file.name
+      - publish
+    sort:
+      - property: file.ctime
+        direction: DESC

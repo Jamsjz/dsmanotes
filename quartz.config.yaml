@@ -87,7 +87,7 @@ plugins:
       renderEngine: katex
     order: 80
   - source: "@quartz-community/citations"
-    enabled: false
+    enabled: true
     order: 85
   - source: "@quartz-community/hard-line-breaks"
     enabled: false
@@ -164,7 +164,7 @@ plugins:
       position: beforeBody
       priority: 20
   - source: "@quartz-community/tag-list"
-    enabled: false
+    enabled: true
     layout:
       position: beforeBody
       priority: 30
@@ -252,11 +252,23 @@ plugins:
       outputPath: static/encryptedContentIndex.json
     order: 900
   - source: "@quartz-community/stacked-pages"
-    enabled: false
+    enabled: true
     layout:
       position: afterBody
       priority: 50
       display: all
+  - source: "@quartz-community/obsidian-plugin-excalidraw"
+    enabled: true
+    order: 50
+    options: {}
+  - source: github:hyodoarch/quartz-image-captions
+    enabled: true
+    order: 50
+    options: {}
+  - source: github:hyodoarch/quartz-image-grid-captions
+    enabled: true
+    order: 50
+    options: {}
 layout:
   groups:
     toolbar:

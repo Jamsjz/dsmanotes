@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0",
+  "plugins": {
+    "quartz-image-captions": {
+      "source": "github:hyodoarch/quartz-image-captions",
+      "resolved": "https://github.com/hyodoarch/quartz-image-captions.git",
+      "commit": "4b80a1b4244f313494dd9a238176e0b5c56f9d6f",
+      "installedAt": "2026-09-05T19:26:04.538Z"
+    },
+    "quartz-image-grid-captions": {
+      "source": "github:hyodoarch/quartz-image-grid-captions",
+      "resolved": "https://github.com/hyodoarch/quartz-image-grid-captions.git",
+      "commit": "f28e6c97f6d4c545f4a6fd221ac32b086393af70",
+      "installedAt": "2026-09-05T19:26:20.486Z"
+    }
+  }
+}
